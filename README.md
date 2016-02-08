@@ -27,4 +27,6 @@ Result:
 </Page>
 ```
 
+To produce XML tags such as `<ListView.itemTemplate>`, use `#{'ListView.itemTemplate'}`, since `ListView.itemTemplate` will instead produce `<ListView class="itemTemplate">`.
+
 More info at http://jade-lang.com/.
